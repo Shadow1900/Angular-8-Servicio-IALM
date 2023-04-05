@@ -25,3 +25,26 @@ button {
   text-shadow: 2px 2px 5px #000;
   box-shadow: 2px 2px 5px #000;
 }
+select {
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px #000;
+  background-color: #fff;
+  color: #ff69b4;
+  text-align-last: center;
+  width: 100%;
+}
+p {
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  background-color: #fff;
+  padding: 20px;
+}
