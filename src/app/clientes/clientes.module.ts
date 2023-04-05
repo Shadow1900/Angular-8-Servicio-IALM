@@ -6,7 +6,7 @@ import { AltaClienteComponent } from './alta-cliente/alta-cliente.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
-  declarations: [],
+  declarations: [AltaClienteComponent],
   providers: [ClientesService],
   exports: [AltaClienteComponent],
 })
