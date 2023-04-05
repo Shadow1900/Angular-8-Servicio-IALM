@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { ClientesService } from './clientes.service';
 import { FormsModule } from '@angular/forms';
 import { AltaClienteComponent } from './alta-cliente/alta-cliente.component';
+import { ListadoClientesComponent } from './listado-clientes/listado-clientes.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
-  declarations: [AltaClienteComponent],
+  declarations: [AltaClienteComponent, ListadoClientesComponent],
   providers: [ClientesService],
-  exports: [AltaClienteComponent],
+  exports: [AltaClienteComponent, ListadoClientesComponent],
 })
 export class ClientesModule {}
